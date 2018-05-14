@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Backend Agent Management</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+	<link href="css/flaticon.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+	<div class="container2 offset-0">
+			
+				<div class="dashboard-left text-center">
+					
+					<div class="user-info">
+					<a href="#"><img src="img/logo.png" alt="" title=""/></a>
+					<span class="size12 grey lh5">Welcome to the Admin Panel</span>
+					<a href="#"><img src="img/user-img.png" alt="" title=""/></a>
+					<span class="size14 dark">John Doe</span>
+					<a class="profile-option" href="#">
+					<img src="img/dropdown-img.png" alt="" title=""/>
+					</a>
+					<div class="edit-profile-popup" style="display:none;">
+						<div class="arrow"></div>
+						<div class="edit-profile-content">
+							<ul class="list-unstyled">
+								<li><a href="#"><i class="flaticon-arrows"></i> Edit</a></li>
+								<li><a href="#"><i class="flaticon-medical"></i> View</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					
+					
+					
+					</div>
+					<div class="search-filter-form">
+						<form>
+						  <div class="form-group">
+							<select class="selectpicker">
+							  <option>Keyword</option>
+							  <option>Ketchup</option>
+							  <option>Relish</option>
+							</select>
+						  </div>
+						   <div class="form-group">
+							<select class="selectpicker">
+							  <option>Status</option>
+							  <option><span class="option-active"></span> Active</option>
+							  <option><span class="option-inactive"></span> Inactive</option>
+							  <option><span class="option-blocked"></span> Blocked</option>
+							</select>
+						  </div>
+						 
+						   <div class="form-group">
+							<select class="selectpicker">
+							  <option>Coutry</option>
+							  <option>Ketchup</option>
+							  <option>Relish</option>
+							</select>
+						  </div>
+						   <div class="form-group">
+							<select class="selectpicker">
+							  <option>State</option>
+							  <option>Ketchup</option>
+							  <option>Relish</option>
+							</select>
+						  </div>
+						   <div class="form-group">
+							<select class="selectpicker">
+							  <option>City</option>
+							  <option>Ketchup</option>
+							  <option>Relish</option>
+							</select>
+						  </div>
+						  <button type="submit" class="btn btn-block">Search</button>
+						</form>
+					</div>
+					
+					
+				</div>
+			
+			
+			
+				<div class="dashboard-right">
+					<div class="main-content">
+						<div class="cpadding40">
+							<div class="row">
+								<div class="agent-listing">
+									<ul class="list-inline">
+										<li class="active"><a href="#"><i class="flaticon-file"></i> Management</a></li>
+										<li><a href="#"><i class="flaticon-signs"></i> Bookings</a></li>
+										<li><a href="#"><i class="flaticon-man"></i> Agents</a></li>
+										<li><a href="#"><i class="flaticon-wifi"></i> White Label</a></li>
+										<li><a href="#"><i class="flaticon-technology"></i> APIs</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="result-container">
+									<div class="agent-detail-box">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-12 lpadding">
+												<div class="agancy-name"><h3>John Doe</h3></div>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-12 rpadding">
+												<div class="action-list pull-right">
+													<ul class="list-inline">
+														<li><div class="agancy-address"><i class="flaticon-placeholder"></i> Industrial Development Area,IDC-87, Sector 16, Gurugram, Haryana 122001</div></li>
+														
+														<li>
+															<div class="action" id="open-popup">
+																<a href="#">Action<img src="img/drop-arrow.png" alt="" title=""/></a>
+															</div>
+															
+															<div class="popover-box bottom" style="display:none;">
+																<div class="arrow"></div>
+																<div class="popover-box-content">
+																	<ul class="list-unstyled">
+																		<li><a href="#"><i class="flaticon-arrows"></i> Message</a></li>
+																		<li><a href="#"><i class="flaticon-hands"></i> Block</a></li>
+																		<li><a href="#"><i class="flaticon-hands-1"></i> Edit</a></li>
+																		<li><a href="#"><i class="flaticon-garbage"></i> Delete</a></li>
+																		<li><a href="#"><i class="flaticon-medical"></i> View</a></li>
+																	</ul>
+																</div>
+															</div>
+															
+															
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="row"><div class="seaprator"></div></div>
+										<div class="row">
+											<div class="agent-detail-list">
+												<ul class="list-inline">
+													<li>
+														<div class="p-heading">
+															<h2>Email id</h2>
+															<span>johndoe4545467@gmail.com</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Mobile</h2>
+															<span>+91- 94435443433</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Ticket Booked</h2>
+															<span>20</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Last Login</h2>
+															<span>24/04/2017, 02:35</span>
+														</div>
+													</li>
+						
+												</ul>
+											</div>
+										</div>
+									</div><!--agent detail-box ends here-->
+									
+									<div class="agent-detail-box">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-12 lpadding">
+												<div class="agancy-name"><h3>John Doe</h3></div>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-12 rpadding">
+												<div class="action-list pull-right">
+													<ul class="list-inline">
+														<li><div class="agancy-address"><i class="flaticon-placeholder"></i> Industrial Development Area,IDC-87, Sector 16, Gurugram, Haryana 122001</div></li>
+														
+														<li>
+															<div class="action" id="open-popup">
+																<a href="#">Action<img src="img/drop-arrow.png" alt="" title=""/></a>
+															</div>
+															
+														
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="row"><div class="seaprator"></div></div>
+										<div class="row">
+											<div class="agent-detail-list">
+												<ul class="list-inline">
+													<li>
+														<div class="p-heading">
+															<h2>Email id</h2>
+															<span>johndoe4545467@gmail.com</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Mobile</h2>
+															<span>+91- 94435443433</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Ticket Booked</h2>
+															<span>20</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Last Login</h2>
+															<span>24/04/2017, 02:35</span>
+														</div>
+													</li>
+						
+												</ul>
+											</div>
+										</div>
+									</div><!--agent detail-box ends here-->
+									
+									<div class="agent-detail-box blocked">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-12 lpadding">
+												<div class="agancy-name"><h3>John Doe</h3></div>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-12 rpadding">
+												<div class="action-list pull-right">
+													<ul class="list-inline">
+														<li><div class="agancy-address"><i class="flaticon-placeholder"></i> Industrial Development Area,IDC-87, Sector 16, Gurugram, Haryana 122001</div></li>
+														
+														<li>
+															<div class="action" id="open-popup">
+																<a href="#">Action<img src="img/drop-arrow.png" alt="" title=""/></a>
+															</div>
+															
+															
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="row"><div class="seaprator"></div></div>
+										<div class="row">
+											<div class="agent-detail-list">
+												<ul class="list-inline">
+													<li>
+														<div class="p-heading">
+															<h2>Email id</h2>
+															<span>johndoe4545467@gmail.com</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Mobile</h2>
+															<span>+91- 94435443433</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Ticket Booked</h2>
+															<span>20</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Last Login</h2>
+															<span>24/04/2017, 02:35</span>
+														</div>
+													</li>
+						
+												</ul>
+											</div>
+										</div>
+									</div><!--agent detail-box ends here-->
+									
+									<div class="agent-detail-box inactive">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-12 lpadding">
+												<div class="agancy-name"><h3>John Doe</h3></div>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-12 rpadding">
+												<div class="action-list pull-right">
+													<ul class="list-inline">
+														<li><div class="agancy-address"><i class="flaticon-placeholder"></i> Industrial Development Area,IDC-87, Sector 16, Gurugram, Haryana 122001</div></li>
+														
+														<li>
+															<div class="action" id="open-popup">
+																<a href="#">Action<img src="img/drop-arrow.png" alt="" title=""/></a>
+															</div>
+															
+														
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="row"><div class="seaprator"></div></div>
+										<div class="row">
+											<div class="agent-detail-list">
+												<ul class="list-inline">
+													<li>
+														<div class="p-heading">
+															<h2>Email id</h2>
+															<span>johndoe4545467@gmail.com</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Mobile</h2>
+															<span>+91- 94435443433</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Ticket Booked</h2>
+															<span>20</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Last Login</h2>
+															<span>24/04/2017, 02:35</span>
+														</div>
+													</li>
+						
+												</ul>
+											</div>
+										</div>
+									</div><!--agent detail-box ends here-->
+									
+									<div class="agent-detail-box">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-12 lpadding">
+												<div class="agancy-name"><h3>John Doe</h3></div>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-12 rpadding">
+												<div class="action-list pull-right">
+													<ul class="list-inline">
+														<li><div class="agancy-address"><i class="flaticon-placeholder"></i> Industrial Development Area,IDC-87, Sector 16, Gurugram, Haryana 122001</div></li>
+														
+														<li>
+															<div class="action" id="open-popup">
+																<a href="#">Action<img src="img/drop-arrow.png" alt="" title=""/></a>
+															</div>
+															
+															
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="row"><div class="seaprator"></div></div>
+										<div class="row">
+											<div class="agent-detail-list">
+												<ul class="list-inline">
+													<li>
+														<div class="p-heading">
+															<h2>Email id</h2>
+															<span>johndoe4545467@gmail.com</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Mobile</h2>
+															<span>+91- 94435443433</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Ticket Booked</h2>
+															<span>20</span>
+														</div>
+													</li>
+													
+													<li>
+														<div class="p-heading">
+															<h2>Last Login</h2>
+															<span>24/04/2017, 02:35</span>
+														</div>
+													</li>
+						
+												</ul>
+											</div>
+										</div>
+									</div><!--agent detail-box ends here-->
+									
+									
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="agent-detail-pagination pull-right">
+									<ul class="pagination">
+										<li>
+										  <a href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+										  </a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li>
+										  <a href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+										  </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							
+							
+							
+						</div>
+					</div>
+				</div>
+
+	</div>
+	
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+	<script>
+	jQuery(document).ready(function() {
+		
+			var nice = jQuery(".dashboard-left").niceScroll({
+				cursorcolor:"#ccc",
+				cursorborder :"0px solid #fff",			
+				railpadding:{top:0,right:0,left:0,bottom:0},
+				cursorwidth:"1px",
+				cursorborderradius:"0px",
+				cursoropacitymin:0,
+				cursoropacitymax:0.7,
+				boxzoom:false,
+				horizrailenabled:false,
+				autohidemode:false
+			});  
+		});
+	
+	</script>
+  </body>
+</html>

@@ -1,0 +1,1153 @@
+body
+{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a:focus, a:hover
+{
+	text-decoration:none;
+}
+
+header
+{
+	background:#1f2533;
+	color:#fff;
+	
+}
+
+.light-font
+{
+	font-size:12px;
+	color:#7f8da0;
+	font-weight:500;
+}
+
+.bold-font
+{
+	font-size:14px;
+	color:#263238;
+	font-weight:800;
+}
+
+.total-value
+{
+	color:#2ecc4f;
+	font-weight:800;
+	font-size:14px;
+
+}
+
+.lPadding
+{
+	padding-left:0;
+}
+
+.rPadding
+{
+	padding-right:0;
+}
+
+.separator
+{
+	height:2px;
+	background:#c3c3c3;
+	width:1230px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.seprator-line
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	height:2px;
+	background:#ddd;
+}
+
+.navbar-toggle
+{
+	border:1px solid #fff;
+	margin-top:25px;
+}
+
+.navbar-toggle .icon-bar
+{
+	background-color:#fff !important;
+}
+
+.login-wrapper .navbar
+{
+	min-height:auto;
+	margin-bottom:0;
+}
+
+.login-wrapper .navbar-brand
+{
+	height:auto;
+	padding:12px 20px;
+}
+
+
+.login-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav.navbar.login-menu ul.navbar-right li a
+{
+	opacity:0.60;
+	font-weight:400;
+}
+
+nav.navbar.login-menu ul.navbar-right li a i
+{
+	padding-right:9px;
+	font-size:14px;
+}
+
+.login-menu ul li a:hover
+{
+	background:none;
+	color:#49ba8e;
+}
+
+.login-bg
+{
+	background:url('../img/login-bg.png');
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.login-inner
+{
+	padding:45px 0;
+}
+
+.login-inner .login-form
+{
+	width:854px;
+	margin:0 auto;
+	border-width: 1px;
+	border-color: rgb(207, 207, 207);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+}
+
+.login-inner .login-form .login-form-header
+{
+	padding:20px 0 0;
+	border-bottom:1px solid #c3c3c3;
+}
+
+.login-form-header .choose-option ul
+{
+	margin:0;
+}
+
+.login-form-header .choose-option ul li
+{
+	padding-left:15px;
+	padding-right:15px;
+	position:relative;
+	
+}
+
+.login-form-header .choose-option ul li a
+{
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.login-form-header .choose-option ul li.active
+{
+	border-bottom:3px solid #49ba8e;
+	padding-bottom:23px;
+}
+
+
+.login-form-header .choose-option ul li a:hover
+{	
+	text-decoration:none;
+	
+}
+
+.nav>li>a:focus, .nav>li>a:hover
+{
+	background:none;
+	outline:0 none;
+}
+
+
+
+.login-inner .login-form  .login-form-content
+{
+	padding:45px 53px;
+	border-bottom:1px solid #c3c3c3;
+}
+
+.login-inner .login-form  .login-form-content .user-login-form
+{
+	position:relative;
+}
+
+.login-inner .login-form  .login-form-content  .user-login-form  span.or {
+    position: absolute;
+    right: -30px;
+    top: 36%;
+	height:29px;
+	width:29px;
+	border-radius:28px;
+	border-width: 1px;
+	border-color: rgb(210, 211, 214);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	text-align:center;
+	font-size:12px;
+	line-height:29px;
+}
+
+.login-inner .login-form .login-form-content .user-login-form span.or::after {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 1px;
+    background: #e3e3e3;
+    top: 27px;
+    left: 13px;
+}
+
+.login-inner .login-form .login-form-content .user-login-form span.or::before {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 1px;
+    background: #e3e3e3;
+    top: -80px;
+    left: 13px;
+}
+	
+
+.login-inner .login-form  .login-form-content .form-group input
+{
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  height:48px;
+  box-shadow:none;
+  width:300px;
+  font-size:12px;
+}
+
+
+.login-inner .login-form  .login-form-content .user-register-form .form-group input, .login-inner .login-form  .login-form-content .user-register-form button.btn-block
+{
+	width:100%;
+}
+
+.login-inner .login-form  .login-form-content .form-group input:focus
+{
+	box-shadow:none;
+	border:1px solid #49ba8e;
+}
+
+.login-inner .login-form  .login-form-content button.btn-block
+{
+	border-radius: 3px;
+	background-color: rgb(225, 83, 83);
+	padding:20px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:12px;
+	letter-spacing:1.5px;
+	margin-bottom:15px;
+	width:300px;
+}
+.login-inner .login-form  .login-form-content p
+{
+	width:300px;
+}
+
+.login-inner .login-form  .login-form-content p > a
+{
+	color:#83868b;
+	font-size:12px;
+}
+
+.login-inner .login-form  .login-form-content  p > a:hover
+{
+	text-decoration:none;
+}
+
+
+.login-inner .login-form  .login-form-content .social-login-wrapper {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+.login-inner .login-form  .login-form-content .social-login-wrapper .social-login-btn {
+    display: table-cell;
+    vertical-align: middle;
+	text-align:center;
+}
+
+.login-inner .login-form  .login-form-content .social-login-wrapper .social-login-btn button.btn-fb
+{
+	border-width: 1px;
+	border-color: rgb(58, 88, 155);
+	border-style: solid;
+	border-radius: 2px;
+	background-color: rgba(58, 88, 155, 0.102);
+	color:#3a589b;
+	font-size:12px;
+	margin-bottom:10px;
+	position:relative;
+	width:190px;
+	
+}
+
+.login-inner .login-form  .login-form-content .social-login-wrapper .social-login-btn button.btn-fb i
+{
+	position:absolute;
+	left:10px;
+	top:8px;
+	font-size:14px;
+	color:#3a589b;
+}
+
+.login-inner .login-form  .login-form-content .social-login-wrapper .social-login-btn button.btn-gplus i
+{
+	position:absolute;
+	left:10px;
+	top:8px;
+	font-size:14px;
+	color:#e74c3c;
+}
+
+.login-inner .login-form  .login-form-content .social-login-wrapper .social-login-btn button.btn-gplus
+{
+	border-width: 1px;
+	border-color: rgb(231, 76, 60);
+	border-style: solid;
+	border-radius: 2px;
+	background-color: rgba(231, 76, 60, 0.102);
+	color:#e74c3c;
+	font-size:12px;
+	position:relative;
+	width:190px;
+}
+
+
+.login-inner .login-form  .login-form-footer
+{
+	background:rgba(195, 195, 195, 0.10);
+	padding:26px 0;
+}
+
+
+.login-inner .login-form  .login-form-footer .feat-list ul {
+    margin: 0;
+}
+
+.login-inner .login-form  .login-form-footer .feat-list ul li {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding: 0 25px 0 50px;
+	color:#83868b;
+}
+
+.login-inner .login-form  .login-form-footer .feat-list ul li img
+{
+	margin-bottom:10px;
+}
+
+.login-inner .login-form  .login-form-footer .feat-list ul li:last-child
+{
+	border-right:0 none;
+}
+
+.login-inner .login-form  .login-form-footer .feat-list ul li h4 {
+    font-size: 11px;
+    width: 130px;
+    margin: 0 auto;
+	line-height:18px;
+}
+
+
+/***************** Agent Register Page Css **************************/
+
+
+.agent-register-form {
+    width: 100% !important;
+    margin: 0 auto;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
+
+.agent-reg-form h2
+{
+	font-size:18px;
+	margin-bottom:27px;
+}
+
+.agent-reg-form .form-group input
+{
+	width:100% !important;
+}
+
+.agent-reg-form .form-group select
+{
+	width:100%;
+	height:48px;
+	box-shadow:none;
+}
+
+.agent-reg-form .form-group select:focus
+{
+	border:1px solid #49ba8e;
+}
+
+.agent-reg-form .checkbox a {
+    color: rgb(225, 83, 83);
+    text-decoration: underline;
+}
+
+.register-btn button.btn-block
+{
+	margin:0 auto;
+}
+
+
+/******************** payment Css ***********************************/
+
+
+.gray-bg
+{
+	background:#fafafa;
+}
+
+.white-bg
+{
+		background:#fff;
+}
+
+.main-content .fare-detail
+{
+	border-left:1px solid #eee;
+	padding:10px 60px 20px 20px;
+}
+
+.fare-detail .fare-heading h3
+{
+	font-size:16px;
+	border-bottom:1px solid #999;
+	padding-bottom:15px;
+	text-transform:uppercase;
+}
+
+.fare-detail button.btn-submit
+{
+	display:block;
+	background:#0781df;
+	color:#fff;
+	display:block;
+	padding:10px;
+	border-radius:2px;
+	width:100%;
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.payment-steps
+{
+	padding:70px 63px 0;
+}
+
+.tabs-left > .nav-tabs {
+    border: 1px solid #ddd;
+	
+}
+
+
+
+.tabs-left > .nav-tabs > li{
+	float: none;
+	border:1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a{
+	min-width: 160px;
+	margin-right: 0;
+	color:#263238;
+	font-size:14px;
+	font-weight:500;
+	text-transform:uppercase;
+	padding:15px 20px;
+}
+
+.tabs-left > .nav-tabs {
+	float: left;
+	margin-right: 19px;
+	border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li.active a {
+    background: #fff;
+    color: #0781df;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0 none;
+	background:#ddd;
+}
+
+.nav-tabs>li>a:hover
+{
+	border-color:0 none;
+}
+
+.form-content {
+    padding: 35px 0 0;
+}
+
+.form-content .form-group input
+{
+	border-radius:0;
+	box-shadow:none;
+	border-top:0 none;
+	border-left:0 none;
+	border-right:0 none;
+	border-bottom:2px solid #ddd;
+	padding: 6px 0;
+}
+
+
+/**************** 9 may 2017 css **************/
+
+
+.payment-content {
+    margin-bottom: 20px;
+}
+
+.traveller-from .heading h1 {
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.traveller-from  form .form-group
+{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.traveller-from  form .form-group input
+{
+	border-radius:0;
+	box-shadow:none;
+	border-left:0 none;
+	border-right:0 none;
+	border-top:0 none;
+	border-bottom:2px solid #d3dbe3;
+	padding:6px 0;
+}
+
+.traveller-from  form .form-group span.calendar-inuput
+{
+	position:absolute;
+	right:5px;
+	top:10px;
+}
+
+.traveller-from  form .form-group span.calendar-inuput i
+{
+	color:#999;
+}
+
+.review-content .panel-heading {
+    font-size: 10px;
+	background-color:#fff !important;
+}
+
+.review-content .panel-heading span i {
+    color: #37a000;
+    transform: rotate(45deg);
+    margin-right: 5px;
+}
+
+.review-content .panel .panel-body
+{
+	background-color:#fafafa;
+	padding:15px 0 15px;
+}
+
+.review-content .panel-heading .right ul {
+    margin-bottom: 0;
+}
+
+.review-content .panel-heading .right ul li {
+    border-right:1px solid #ddd;
+}
+
+.review-content .panel-heading .right ul li:last-child
+{
+	border-right:0 none;
+}
+
+
+
+.traveller-detail span img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.traveller-detail span.block-img {
+    float: left;
+    text-align: center;
+	padding:20px 20px 0;
+}
+
+.review-box ul li.round-left {
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    min-height: 104px;
+    padding: 18px 10px 10px 35px;
+    position: relative;
+	background:#fff;
+    width: 155px;
+}
+
+.review-box ul li.pull-left .date {
+    position: absolute;
+    top: 0;
+    right: -63px;
+    background: #fff;
+    font-size: 9px;
+    padding: 4px;
+    border-radius: 4px;
+	text-align:left;
+}
+
+.review-box ul li.pull-right .date {
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+    background: #fff;
+    font-size: 9px;
+    padding: 4px;
+    border-radius: 4px;
+	text-align:left;
+}
+
+.review-box ul li.round-right {
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    min-height: 104px;
+    padding: 18px 10px 10px 35px;
+    position: relative;
+	background:#fff;
+    width: 155px;
+}
+
+.review-box ul li.round-left span, .review-box ul li.round-right span
+{
+	display:block;
+}
+
+.review-box ul li.round-left span.location-name, .review-box ul li.round-right span.location-name
+{
+	color:#7f8da0;
+	font-size:12px;
+	text-align:left;
+}
+
+.review-box ul li.round-left span.font-large, .review-box ul li.round-right span.font-large
+{
+	color:#263238;
+	font-size:26px;
+	font-weight:100;
+	text-align:left;
+}
+.review-box ul li.round-left span.airport-name, .review-box ul li.round-right span.airport-name
+{
+	color:#7f8da0;
+	font-size:10px;
+	text-align:left;
+}
+
+.review-box ul li.round-left::after {
+    background: #e0e0e0;
+    border-radius: 50%;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: -8px;
+    top: 40px;
+    width: 15px;
+}
+
+.review-box ul li.round-right::after {
+    background: #e0e0e0;
+    border-radius: 50%;
+    content: "";
+    height: 15px;
+    position: absolute;
+    left: -8px;
+    top: 40px;
+    width: 15px;
+}
+
+.class-eco {
+    padding: 30px 0 0;
+}
+
+.class-eco .eco-separate {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 1px;
+    background: #ddd;
+}
+
+.class-eco span.refund {
+    font-size: 12px;
+    color: #7f8da0;
+    font-weight: 500;
+	position:relative;
+}
+
+.class-eco span.refund i {
+    position: absolute;
+    left: -22px;
+    top: 2px;
+}
+
+.class-eco span.economy {
+    font-size: 12px;
+    color: #7f8da0;
+    font-weight: 500;
+	position:relative;
+}
+
+.class-eco span.economy i {
+    position: absolute;
+    left: -26px;
+    top: 2px;
+}
+
+.connection-text {
+    position: absolute;
+    left: 46%;
+    top: 37px;
+}
+
+.connection-text span i
+{
+	height:44px;
+	width:44px;
+	background:#fff;
+	border:1px solid #37a000;
+	border-radius:44px;
+	line-height:44px;
+	color:#37a000;
+	transform:rotate(45deg);
+	font-size:18px;
+	
+}
+
+.connection-text span::after {
+    content: '';
+    position: absolute;
+    left: 44px;
+    width: 87px;
+    height: 2px;
+    background: #ddd;
+    top: 20px;
+}
+
+.connection-text span::before {
+    content: '';
+    position: absolute;
+    right: 44px;
+    width: 87px;
+    height: 2px;
+    background: #ddd;
+    top: 20px;
+}
+
+.promocode input
+{
+	border-radius:0;
+	border-left:0 none;
+	border-right:0 none;
+	border-bottom:1px solid #ddd;
+	box-shadow:none;
+	padding:6px 0;
+	border-top:0 none;
+	background:none;
+}
+
+.promocode input:focus
+{
+	box-shadow:none;
+}
+
+.ps-list
+{
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: #7f8da0;
+	text-transform: uppercase;
+	font-size:12px;
+	width: 33.33%;
+	float: left;
+	font-weight:500;
+	position:relative;
+}
+
+#progressbar {
+	margin-bottom: 30px;
+}
+
+#progressbar li::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: #fff;
+    border-radius: 100%;
+    margin: 0 auto 5px auto;
+    border: 4px solid #7f8da0;
+}
+
+/*progressbar connectors*/
+#progressbar li::after {
+	content: '';
+	width: 95%;
+	height: 2px;
+	background: #7f8da0;
+	position: absolute;
+	left: -48%;
+	top: 7px;
+	
+}
+
+#progressbar li:first-child::after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active::before,  #progressbar li.active::after{
+	background: #fff;
+	color: #263238;
+	border:4px solid #37a000;
+}
+
+#progressbar li.active
+{
+	color: #263238;
+}
+
+#progressbar li.active .steps-icon
+{
+	background: #2ecc4f;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#progressbar li .steps-icon
+{
+	border:1px solid #d3dbe3;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#progressbar li.active .steps-icon i
+{
+	color:#fff;
+}
+
+#progressbar li.active .steps-icon i::before , #progressbar li .steps-icon i::before
+{
+	margin-left:0;
+}
+
+
+.ps-list ul li .steps-icon {
+    position: absolute;
+    top: -70px;
+    left: 43%;
+}
+
+
+
+
+.ps-list ul li .steps-icon:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-top: 8px solid #d3dbe3;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin-left: -8px;
+}
+
+.ps-list ul li .steps-icon.active:after {
+    border-top-color: #2ecc4f;
+}
+
+
+
+
+/******************** 11 May 2017 Css Search Result Page Css **************************/
+
+.filter-search {
+    padding: 50px 30px 70px 30px;
+	border-right:2px solid #d3dbe3;
+}
+
+.filter-heading {
+    margin-bottom: 30px;
+}
+
+.filter-search .filter-heading h3
+{
+	font-size:14px;
+	color:#263238;
+	font-weight:500;
+	margin:5px 0 20px;
+	text-transform:uppercase;
+}
+
+.flight-timing ul li span.icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 10px;
+    line-height: 37px;
+}
+
+.flight-timing ul li 
+{
+	cursor:pointer;
+}
+
+.flight-timing ul li span {
+    display: block;
+}
+
+.flight-timing ul li span.time {
+    font-size:10px;
+	text-align:center;
+	color:#263238;
+}
+
+.flight-timing ul li span.icon i::before {
+    margin-left: 0;
+}
+
+.flight-timing ul li.active span.icon {
+    background: #2ecc4f;
+    color: #fff;
+}
+
+.search-result-content {
+    padding: 40px 10px;
+}
+
+.rowContent
+{
+	margin-bottom:20px;
+}
+
+.share-list ul {
+    margin-bottom:0;
+}
+
+.share-list {
+    margin-top: 6px;
+}	
+
+.share-list ul li {
+    border-right: 1px solid #e7e7e7;
+    padding-right: 20px;
+    padding-left: 0;
+    line-height: 14px;
+}
+
+.share-list ul li:last-child
+{
+	border-right:0 none;
+	padding-right: 0;
+}
+
+.share-list ul li a i
+{
+	color:#2ecc4f;
+}
+
+.dest_name ul span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dest_name ul {
+    margin-bottom: 0;
+}
+
+.dest_name ul li
+{
+	font-size:20px;
+	color:#263238;
+}
+
+.dest_name ul span i::before
+{
+	margin-left:0;
+}
+
+.dest_name ul span i
+{
+	color:#2ecc4f;
+}
+
+.filter-name
+{
+	background:#fafafa;
+	border-top:1px solid #d3dbe3;
+	border-bottom:1px solid #d3dbe3;
+	padding:10px 20px;
+}
+
+.filter-name h2 {
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-right: 1px solid #ddd;
+	color:#7f8da0;
+}
+
+.ticket-detail {
+    border-right: 1px solid #ddd;
+	margin-top:5px;
+}
+
+
+.ticket-detail h3 {
+    font-size: 10px;
+    margin: 0;
+	color:#263238;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.ticket-detail h2 {
+    font-size: 16px;
+    margin: 0;
+	color:#263238;
+	text-align:center;
+}
+
+.ticket-detail .media .media-body h4 {
+    font-size: 10px;
+    color: #7f8da0;
+}
+
+.ticket-detail .media .media-body 
+{
+	vertical-align:bottom;
+}
+
+.ticket-detail-last ul li {
+    margin-right: 45px;
+    margin-left: 39px;
+}
+
+.ticket-detail-last ul li:last-child {
+    margin-right: 0;
+}
+
+.ticket-detail-last ul {
+    margin-bottom: 0;
+}
+
+.ticket-detail-last ul li .t_price h3 {
+    margin: 0;
+	color:#2ecc4f;
+	font-size:18px;
+	font-weight:300;
+}
+
+.ticket-detail-last ul li .book-btn button.btn-booking {
+    background: #0781df;
+    color: #fff;
+    padding: 10px 30px;
+	font-size:12px;
+	font-weight:600;
+	text-transform:uppercase;
+    border-radius: 2px;
+}
+
+.booking-detail .panel {
+    border-radius: 0;
+}
+
+.booking-detail .panel .panel-body {
+    padding: 4px;
+}
+
+.booking-detail .panel .panel-body .checkbox
+{
+	margin:0;
+}
+
+.view-detail button.btn-view {
+    padding: 5px 8px;
+    font-size: 10px;
+    background: #f8f8f8;
+    border: 1px solid #d3dbe3;
+    color: #7f8da0;
+    font-weight: bold;
+}
+.booking-detail .panel .panel-body .checkbox {
+    margin: 6px 0 0;
+    font-size: 10px;
+    color: #7f8da0;
+}
+
+.booking-detail .panel .panel-body .checkbox input[type="checkbox"] {
+    margin: 0px -20px;
+}
+
+
+.booking-detail {
+    margin-bottom: 20px;
+}
+
+
+

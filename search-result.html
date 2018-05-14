@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Search Result</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+	<link href="css/flaticon.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  </head>
+  <body>
+    
+	<header class="login-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar login-menu">
+					
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" title=""/></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li><a href="#">Hotels</a></li>
+						<li><a href="#">Flights</a></li>
+						<li><a href="#">Holidays</a></li>
+						<li><a href="#">Flight+Hotels</a></li>
+						<li><a href="#">Homestays</a></li>
+					  </ul>
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><i class="flaticon-star"></i> Special deals</a></li>
+						<li><a href="#"><i class="flaticon-megaphone"></i> Refer & Earns</a></li>
+						<li><a href="login.html"><i class="flaticon-user"></i> Login</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+					
+				</nav>
+			</div>
+		</div>
+	</header>
+	
+	
+	<section class="main-content">
+		<div class="col-md-3 rPadding lPadding">
+			<div class="gray-bg">
+				<div class="filter-search">
+					<form>
+						
+						<div class="price-range filter-heading">
+							<h3>Price Range</h3>
+						
+						</div>
+						
+						<div class="flight-timing filter-heading">
+							<h3>Flight Timing</h3>
+							<ul class="list-inline">
+								<li class="active">
+									<span class="icon"><i class="flaticon-nature"></i></span>
+									<span class="time">00-06</span>
+								</li>
+								<li>
+									<span class="icon"><i class="flaticon-sea"></i></span>
+									<span class="time">00-06</span>
+								</li>
+								<li>
+									<span class="icon"><i class="flaticon-moon"></i></span>
+									<span class="time">00-06</span>
+								</li>
+								<li>
+									<span class="icon"><i class="flaticon-moon"></i></span>
+									<span class="time">00-06</span>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="total-stop filter-heading">
+							<h3>Stops</h3>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 0
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 1
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 2+
+							</label>
+						</div>
+						
+						<div class="fare-type filter-heading">
+							<h3>Fare Type</h3>
+							<ul class="list-unstyled">
+								<li><div class="checkbox"><label><input type="checkbox" value="">Refundable (257)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" value="">Non Refundable (257)</label></div></li>
+							</ul>
+						</div>
+						
+						
+						<div class="airline-list filter-heading">
+							<h3>Fare Type</h3>
+							<ul class="list-unstyled">
+								<li><div class="checkbox"><label><input type="checkbox" value="">Airindia (91)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" value="">GoAir (4)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" value="">Airindia (4)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" value="">GoAir (4)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" value="">GoAir (4)</label></div></li>
+							</ul>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-9 lPadding rPadding">
+			<div class="white-bg">
+				<div class="search-result-content clearfix">
+						<div class="rowContent clearfix">
+							<div class="col-md-12">
+								<div class="col-md-6 lPadding">
+									<div class="dest_name">
+										<ul class="list-inline">
+											<li>DEL</li>
+											<span><i class="flaticon-next"></i></span>
+											<li>GOA</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6 rPadding">
+									<div class="share-list pull-right">
+										<ul class="list-inline">
+											<li><a href="#"><i class="flaticon-search"></i></a></li>
+											<li><a href="#"><i class="flaticon-shapes"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="rowContent clearfix">
+							<div class="col-md-12">
+								
+								<div class="filter-name col-md-2">
+									<div class="">
+										<div class="airline">
+											<h2>Airline</h2>
+										</div>
+									</div>
+								</div>
+								<div class="filter-name col-md-2">
+									<div class="">
+										<div class="airline">
+											<h2>Depart</h2>
+										</div>
+									</div>
+								</div>
+								<div class="filter-name col-md-2">
+									<div class="">
+										<div class="airline">
+											<h2>Arrival</h2>
+										</div>
+									</div>
+								</div>
+								<div class="filter-name col-md-2">
+									<div class="">
+										<div class="airline">
+											<h2>Duration</h2>
+										</div>
+									</div>
+								</div>
+								<div class="filter-name col-md-4 last-child">
+									<div class="">
+										<div class="airline">
+											<h2>Price</h2>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						
+						<div class="rowContent clearfix">
+							<div class="col-md-12">
+								<div class="booking-detail">
+									<div class="panel panel-default">
+										<div class="panel-heading clearfix">
+											<div class="col-md-2 lPadding">
+												<div class="ticket-detail">
+													<div class="media">
+													  <div class="media-left">
+														<a href="#">
+														  <img class="media-object img-circle" src="http://placehold.it/30x30" alt="...">
+														</a>
+													  </div>
+													  <div class="media-body">
+														<h4 class="media-heading">Air Asia <br> 6E-171</h4>
+													  </div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-4 rPadding">
+												<div class="ticket-detail-last">
+													<ul class="list-inline">
+														<li>
+															<div class="t_price">
+																<h3>$12,43</h3>
+															</div>
+														</li>
+														<li>
+															<div class="book-btn">
+																<button type="button" class="btn btn-booking">Book</button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+											
+										</div>
+									  <div class="panel-body">
+											<div class="col-md-8">
+												<div class="checkbox">
+													<label>
+													  <input type="checkbox"> ZERO Cancellation |  Cancel your ticket for Free. Buy Zero Cancellation @ only Rs. 199 
+													</label>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="view-detail pull-right">
+													<button class="btn btn-view">View Detail</button>
+												</div>
+											</div>
+										
+									  </div>
+									</div>
+								</div><!--booking-detail ends here-->
+								
+								
+								
+								<div class="booking-detail">
+									<div class="panel panel-default">
+										<div class="panel-heading clearfix">
+											<div class="col-md-2 lPadding">
+												<div class="ticket-detail">
+													<div class="media">
+													  <div class="media-left">
+														<a href="#">
+														  <img class="media-object img-circle" src="http://placehold.it/30x30" alt="...">
+														</a>
+													  </div>
+													  <div class="media-body">
+														<h4 class="media-heading">Air Asia <br> 6E-171</h4>
+													  </div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-4 rPadding">
+												<div class="ticket-detail-last">
+													<ul class="list-inline">
+														<li>
+															<div class="t_price">
+																<h3>$12,43</h3>
+															</div>
+														</li>
+														<li>
+															<div class="book-btn">
+																<button type="button" class="btn btn-booking">Book</button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+											
+										</div>
+									  <div class="panel-body">
+											<div class="col-md-8">
+												<div class="checkbox">
+													<label>
+													  <input type="checkbox"> ZERO Cancellation |  Cancel your ticket for Free. Buy Zero Cancellation @ only Rs. 199 
+													</label>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="view-detail pull-right">
+													<button class="btn btn-view">View Detail</button>
+												</div>
+											</div>
+										
+									  </div>
+									</div>
+								</div>
+								
+								<div class="booking-detail">
+									<div class="panel panel-default">
+										<div class="panel-heading clearfix">
+											<div class="col-md-2 lPadding">
+												<div class="ticket-detail">
+													<div class="media">
+													  <div class="media-left">
+														<a href="#">
+														  <img class="media-object img-circle" src="http://placehold.it/30x30" alt="...">
+														</a>
+													  </div>
+													  <div class="media-body">
+														<h4 class="media-heading">Air Asia <br> 6E-171</h4>
+													  </div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>new Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-4 rPadding">
+												<div class="ticket-detail-last">
+													<ul class="list-inline">
+														<li>
+															<div class="t_price">
+																<h3>$12,43</h3>
+															</div>
+														</li>
+														<li>
+															<div class="book-btn">
+																<button type="button" class="btn btn-booking">Book</button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+											
+										</div>
+									  <div class="panel-body">
+											<div class="col-md-8">
+												<div class="checkbox">
+													<label>
+													  <input type="checkbox"> ZERO Cancellation |  Cancel your ticket for Free. Buy Zero Cancellation @ only Rs. 199 
+													</label>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="view-detail pull-right">
+													<button class="btn btn-view">View Detail</button>
+												</div>
+											</div>
+										
+									  </div>
+									</div>
+								</div>
+								
+								<div class="booking-detail">
+									<div class="panel panel-default">
+										<div class="panel-heading clearfix">
+											<div class="col-md-2 lPadding">
+												<div class="ticket-detail">
+													<div class="media">
+													  <div class="media-left">
+														<a href="#">
+														  <img class="media-object img-circle" src="http://placehold.it/30x30" alt="...">
+														</a>
+													  </div>
+													  <div class="media-body">
+														<h4 class="media-heading">Air Asia <br> 6E-171</h4>
+													  </div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>New Delhi</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>05:10PM</h2>
+													<h3>Mumbai</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<div class="ticket-detail">
+													<h2>2h 10m</h2>
+													<h3>Nonstop</h3>
+												</div>
+											</div>
+											
+											<div class="col-md-4 rPadding">
+												<div class="ticket-detail-last">
+													<ul class="list-inline">
+														<li>
+															<div class="t_price">
+																<h3>$12,43</h3>
+															</div>
+														</li>
+														<li>
+															<div class="book-btn">
+																<button type="button" class="btn btn-booking">Book</button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+											
+										</div>
+									  <div class="panel-body">
+											<div class="col-md-8">
+												<div class="checkbox">
+													<label>
+													  <input type="checkbox"> ZERO Cancellation |  Cancel your ticket for Free. Buy Zero Cancellation @ only Rs. 199 
+													</label>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="view-detail pull-right">
+													<button class="btn btn-view">View Detail</button>
+												</div>
+											</div>
+										
+									  </div>
+									</div>
+								</div>
+								
+								
+								
+								
+							</div>
+						</div>
+						
+						
+				</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

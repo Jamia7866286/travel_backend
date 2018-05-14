@@ -1,0 +1,2059 @@
+body
+{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+a:focus, a:hover, a:visited
+{
+	text-decoration:none;
+}
+
+
+
+.dark {
+    color: #333;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+.size14
+{
+	font-size:14px;
+}
+
+.grey {
+    color: #999;
+}
+
+.gcolor
+{
+	color: rgb(60, 162, 7);
+}
+
+.fw600
+{
+	font-weight:600;
+}
+
+
+.lh5 {
+    line-height: 36px;
+}
+
+.seaprator {
+    width: 100%;
+    height: 1px;
+    background: #f3f3f3;
+	margin-bottom:11px;
+}
+
+#ascrail2000_{width:16px !important}
+
+.lpadding
+{
+	padding-left:0;
+}
+
+.rpadding
+{
+	padding-right:0;
+
+}
+
+.mb20
+{
+	margin-bottom:20px;
+}
+
+.datepicker
+{
+	padding:6px 12px !important;
+}
+
+.modal-open  section {
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.blocked
+{
+	border-width: 1px !important;
+	border-color: rgb(195, 0, 0) !important;
+	border-style: solid !important;
+	background-color: rgba(224, 0, 0, 0.051) !important;
+}
+
+.inactive
+{
+	border-width: 1px !important;
+	border-color: rgb(236, 223, 7) !important;
+	border-style: solid !important;
+	background-color: rgba(236, 223, 7, 0.102) !important;
+}
+
+
+
+
+.offset-0 {
+    padding-left: 0px;
+    padding-right: 0px!important;
+}
+
+.dashboard-left {
+    background: #f2f2f2;
+    position: fixed;
+    height: 100%;
+	width:20%;
+	padding:50px 0;
+}
+
+.dashboard-left .user-info > span {
+    display: block;
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn)
+{
+	width:100% !important;
+}
+
+.bootstrap-select .btn-default
+{
+	background:none;
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	height:40px;
+	border-radius:0;
+	color:#85899d;
+	font-size:14px;
+	
+}
+
+.dashboard-left .search-filter-form
+{
+	margin-top:50px;
+	padding:0 20px;
+}
+
+.btn .caret
+{
+	color:#3ca207 !important;
+}
+
+.bootstrap-select .dropdown-menu 
+{
+    border-width: 2px;
+	border-color: rgb(60, 162, 7);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.25);
+	border-radius:0;
+	top:36px;
+}
+
+.btn-group.open .dropdown-toggle
+{
+	border-width: 2px !important;
+	border-color: rgb(60, 162, 7) !important;
+	border-style: solid !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus
+{
+	outline:2px solid rgb(60, 162, 7)  !important;
+}
+
+li.selected:focus {
+    outline: 0 none !important;
+    background: #f5f5f5;
+	border:0 none;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+{
+	outline:0 none;
+}
+
+.form-control
+{
+	box-shadow:none;
+}
+
+
+.search-filter-form .form-group input
+{
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	height:40px;
+	border-radius:0;
+}
+
+.search-filter-form button.btn-block
+{
+	background-color: rgb(60, 162, 7);
+	height:44px;
+	border-radius:0;
+	color:#fff;
+	font-size:14px;
+	font-weight:500;
+	letter-spacing:0.5px;
+}
+
+.search-filter-form .form-group input:focus
+{
+	box-shadow:none;
+}
+
+
+
+
+
+
+
+.dashboard-right 
+{
+	width:80%;
+	float:right;
+}
+
+.main-content
+{
+	width:100%;
+}
+.cpadding40
+{
+	padding:20px 40px;
+}
+
+.agent-listing {
+    
+    margin-bottom: 20px;
+}
+
+.agent-listing ul
+{
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.agent-listing ul li
+{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.agent-listing ul li a {
+    color: #494949;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.agent-listing ul li.active
+{
+	font-weight:bold;
+	padding-bottom:10px;
+	border-bottom:1px solid #37a000;
+}
+
+.agent-listing ul li.active a, .agent-listing ul li.active a > i
+{
+	color:#37a000;
+}
+
+.agent-listing ul li a:hover
+{
+	text-decoration:none;
+}
+
+.agent-listing ul li a i::before
+{
+	margin-left:0;
+	margin-right:5px;
+}
+
+.result-container .agent-detail-box
+{
+	border-width: 1px;
+	border-color: rgb(231, 231, 231);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	padding:10px 40px;
+	margin-bottom:15px;
+}
+
+.agent-detail-box:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.agent-detail-box .agancy-name h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+.agent-detail-list ul li .p-heading h2 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b2b2b2;
+}
+
+.agent-detail-list ul li .p-heading span
+{
+	color:#494949;
+	font-size:17px;
+	font-weight:500;
+	display:block;
+}
+
+.agent-detail-list ul li .p-heading span a
+{
+	color:#1e00ff;
+	font-size:17px;
+	text-decoration:underline;
+	font-weight:600;
+}
+
+.agent-detail-list ul
+{
+	margin-bottom:0;
+}
+
+.agent-detail-list ul li:first-child {
+    padding-left: 5px;
+}
+
+.agent-detail-list > ul > li {
+    border-right: 1px solid #f3f3f3;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.agent-detail-list ul li
+{
+	border-right:1px solid #f3f3f3;
+	height:39px;
+	vertical-align:middle;
+}
+
+.action-list ul li .agancy-address i
+{
+	color:#37a000;
+}
+
+.action-list ul li .agancy-address, .action-list ul li .action a
+{
+	font-size:16px;
+}
+
+.action-list ul li .action a
+{
+	font-size:14px;
+	color:#37a000;
+	font-weight:600;
+}
+
+.action-list ul li .action a img
+{
+	padding-left:5px;
+}
+
+.action-list ul li .action a:hover
+{
+	text-decoration:none;
+}
+
+.action-list ul li .popover-box
+{
+	position:absolute;
+	width:123px;
+	right:-35px;
+	top:30px;
+	border-width: 1px;
+	border-color: rgb(55, 160, 0);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.25);
+	border-radius:10px;
+	z-index:999;
+
+}
+
+.inline-block {
+    margin-top: 9px;
+}
+
+.inline-block img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user-info
+{
+	position:relative;
+}
+
+.edit-profile-popup
+{
+	position:absolute;
+	width:123px;
+	left:26%;
+	bottom:-90px;
+	border-width: 1px;
+	border-color: rgb(55, 160, 0);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.25);
+	border-radius:10px;
+	z-index:999;
+
+}
+
+.edit-profile-content ul li
+{
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom: 1px solid #f3f3f3;
+    border-right: 0 none !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.edit-profile-content ul li a
+{
+	color: #494949;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.edit-profile-content ul li a i::before
+{
+	margin-left:0;
+}
+	
+.action-list ul li .popover-box.bottom .arrow {
+    left: 82px;
+}
+
+
+.popover-box.bottom .arrow {
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-bottom-color: #3ca207;
+    border-top-width: 0;
+}
+
+.popover-box .arrow {
+    border-width: 11px;
+	content: "";
+}
+
+.popover-box .arrow:after {
+    border-width: 10px;
+    content: "";
+}
+
+.popover-box .arrow, .popover-box .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.popover-box.bottom .arrow:after {
+    top: 1px;
+    margin-left: -10px;
+    border-bottom-color: #ffffff;
+    border-top-width: 0;
+    content: " ";
+}
+
+.popover-box-content > ul > li
+{
+	padding-left:15px !important;
+	padding-right:0 !important;
+	border-bottom:1px solid #f3f3f3;
+	border-right:0 none !important;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.popover-box-content > ul > li > a
+{
+	color:#494949;
+	font-size:14px;
+	font-weight:500;
+}
+
+.popover-box-content > ul > li > a > i
+{
+	color:#37a000;
+	
+}
+
+.popover-box-content > ul > li > a > i::before
+{
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.popover-box-content > ul > li > a:hover
+{
+	text-decoration:none;
+}
+
+.popover-box-content > ul > li:last-child
+{
+	border-bottom:0 none;
+}
+
+
+
+.agent-detail-list ul li:last-child, .action-list ul li:last-child
+{
+	border-right:0 none;
+}
+
+.action-list ul li:last-child
+{
+	padding-right:0;
+}
+
+
+.action-list ul li {
+    border-right: 1px solid #f3f3f3;
+    padding-right: 27px;
+    padding-left: 27px;
+}
+
+.agent-detail-pagination .pagination .active a
+{
+	background-color:rgb(60, 162, 7);
+	border-color:rgb(60, 162, 7);
+	color:#fff;
+}
+
+.agent-detail-pagination .pagination a
+{
+	color:rgb(60, 162, 7);
+}
+
+/**************** Popup Css Here ******************/
+
+
+.modal
+{
+	background:rgba(255,255,255,0.4);
+	z-index:999999999 !important;
+}
+
+.modal-header
+{
+	background-color:rgba(231, 231, 231, 0.3);
+}
+
+.modal-backdrop {
+   background-color: rgba(255,255,255,0.98);
+}
+
+.modal-dialog
+{
+	width:500px;
+}
+
+
+#Reply .modal-content, #Block .modal-content, #Delete .modal-content
+{
+	border-radius: 2px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.3);
+	border:0 none;
+	
+}
+
+#Reply .modal-dialog, #Block .modal-dialog, #Delete .modal-dialog
+{
+	margin:120px auto;
+}
+
+#Reply .modal-header h4, #Block .modal-header h4, #Delete .modal-header h4
+{
+	color:#37a000;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#Block .modal-body .block-content h3, #Delete .modal-body .delete-content h3
+{
+	font-size:13px;
+	font-weight:600;
+	margin-bottom:15px;
+}
+
+#Block .modal-body .block-content ul li a.btn-block, #Delete .modal-body .delete-content ul li a.btn-block
+{
+	border-radius: 3px;
+	background-color: rgb(60, 162, 7);
+	padding:10px 25px;
+	color:#fff;
+	font-size:14px;
+	font-weight:500;
+}
+
+#Block .modal-body .block-content ul li a.btn-cancel, #Delete .modal-body .delete-content ul li a.btn-cancel
+{
+	border-radius: 3px;
+	background-color: #fff;
+	padding:10px 25px;
+	color:#494949;
+	font-size:14px;
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	font-weight:500;
+}
+
+
+
+#Reply .modal-header button.close, #Block .modal-header button.close, #Delete .modal-header button.close{
+    color: #37a000;
+    font-size: 26px;
+    opacity: 1;
+    text-shadow: none;
+    margin-top: -8px;
+}
+
+#Reply .modal-body
+{
+	padding:0;
+}
+
+#Reply .modal-body form .form-group input
+{
+	border-radius:0;
+	box-shadow:none;
+	border-top:0 none;
+	border-left:0 none;
+	border-right:0 none;
+	height:58px;
+	color:#494949;
+	font-size:14px;
+	border-bottom:1px solid #ddd;
+}
+
+#Reply .modal-body form .form-group textarea
+{
+	resize:none;
+	border:0 none;
+	height:180px;
+}
+
+#Reply .modal-footer  button.btn-reply
+{
+	border-radius: 3px;
+	background-color: rgb(60, 162, 7);
+	padding: 10px 58px;
+	color:#fff;
+	font-size:16px;
+	font-weight:500;
+}
+
+#Reply .modal-body form .form-group textarea:hover, #Reply .modal-body form .form-group input:hover
+{
+	box-shadow:none;
+	outline:0 none;
+}
+
+
+
+
+
+
+/**************** Alert Message Popup Css ***********************/
+
+.bb-alert
+{
+	
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+	padding:20px 30px;
+	position:fixed;
+	top:20px;
+	right:20px;
+	cursor:pointer;
+}
+
+.success
+{
+	background-color:#3ca207;
+	opacity:0.6;
+}
+
+.unsuccess
+{
+	background-color:#e00000;
+	opacity:0.6;
+}
+
+
+.bb-alert.sucess:hover
+{
+	background-color:#3ca207;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity:1;
+	
+}
+
+.bb-alert.unsuccess:hover
+{
+	background-color:#e00000;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity:0.8;
+}
+
+.bb-alert .alert-msg
+{
+	color:#fff;
+	font-size:16px;
+	font-weight:500;
+}
+
+
+
+/************************ Edit Use Profile Css **************************/
+
+.user-edit-profile-content {
+    padding: 40px 0;
+}
+
+.user-edit-profile-content form .form-group input , .edit-agent-profile-content form .form-group input
+{
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	height:40px;
+	width:232px;
+	border-radius:0;
+}
+
+.user-edit-profile-content form .form-group select
+{
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	height:40px;
+	width:232px;
+	border-radius:0;
+}
+
+.user-edit-profile-content form .form-group input:hover , .edit-agent-profile-content form .form-group input:hover
+{
+	box-shadow: none;
+}
+
+.user-edit-profile-content button.btn-save-profile , .edit-agent-profile-content button.btn-save-profile
+{
+	border-radius: 3px;
+	background-color: rgb(60, 162, 7);
+	padding:10px 65px;
+	color:#fff;
+	font-size:14px;
+}
+
+.save-profile-btn {
+    margin-top: 20px;
+}
+
+.user-edit-profile-content .img-upload input
+{
+	border:0 none !important;
+	margin:0 auto;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile-4 + label {
+    color: rgb(60, 162, 7);
+}
+
+
+
+.inputfile + label {
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+	text-align:center;
+	margin-left:168px;
+}
+
+.inputfile-4 + label img
+{
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+.user-last-visit-detail ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 40px;
+}
+
+.user-last-visit-detail {
+    text-align: left;
+	margin-top:40px;
+}
+
+.user-last-visit-detail ul li .last-login h2
+{
+	margin:0 0 5px;
+	font-size:14px;
+	color: rgb(60, 162, 7);
+}
+
+.user-last-visit-detail ul li .last-login h3
+{
+	margin:0 0 5px;
+	font-size:16px;
+	color: #494949;
+}
+
+
+.edit-agent-profile-content form h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 16px;
+}
+
+.in-seprator {
+    height: 2px;
+    background: #ddd;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.edit-agent-profile-content form .form-group input.address
+{
+	width:100%;
+}
+
+.edit-agent-profile-content form .form-group select
+{
+	border-width: 2px;
+	border-color: rgb(224, 224, 224);
+	border-style: solid;
+	height:40px;
+	width:232px;
+	border-radius:0;
+}
+
+
+.booking-history > ul > li
+{
+	padding-left:33px;
+	padding-right:33px;
+}
+
+.booking-detail .panel {
+    border-radius: 0;
+}
+
+.booking-detail .panel .table
+{
+	margin-bottom:0;
+}
+
+.fare-rules .panel-body table tr td {
+    width: 100px;
+	color:#b2b2b2;
+	font-size:14px;
+}
+
+.fare-summary .panel-body table tr td
+{
+	color:#b2b2b2;
+	font-size:14px;
+}
+
+.domain-detail .form-group input, .social-media .form-group input
+{
+	width:100% !important;
+}
+
+.fare-rules .panel-body p
+{
+	text-align:right;
+	text-align:justify;
+}
+
+
+
+
+
+
+/********************** 03/10/2017 ************/
+.pass_detail_list ul li .p-heading h2 {
+    font-size: 12px;
+    margin: 0;
+	text-transform:uppercase;
+	color:#b2b2b2;
+	text-align: center;
+}
+
+.pass_detail_list ul li .p-heading h3 {
+    font-size: 12px;
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+.pass_detail_list ul li .p-heading h2.GOA_text{
+    font-size: 18px;
+    margin: 0;
+	text-transform:uppercase;
+	color:#263238;
+	text-align: center;
+}
+
+.pass_detail_list ul li .p-heading h3.GOA_Date{
+    font-size: 10px;
+    margin: 5px 0 0;
+    text-align: center;
+    color: #263238;
+}
+
+.pass_detail_list ul li {
+   /* border-right: 1px solid #ddd;*/
+    padding-left: 18px;
+    padding-right: 18px;
+    position: relative;
+}
+.pass_detail_list .arrow-right-pos{
+	position: absolute;
+	right: -14px;
+    top: 10px;
+}
+.pass_detail_list .arrow-left-pos{
+	position: absolute;
+	right: -14px;
+    top: 8px;
+}
+.pass_detail_list ul li:last-child
+{
+	border-right:0 none;
+}
+.pass_detail_list ul li:nth-child(5)
+{
+	border-right:0 none;
+}
+.pass_detail_list ul
+{
+	margin-bottom:0;
+}
+
+.flight-img, .flight-name
+{
+	display: block;
+	text-align: center;
+}
+
+.flight-name h2, .flight-name h3 {
+    margin: 0 10px 0;
+    font-size: 14px;
+	color:#b2b2b2;
+}
+.PANEL-MARGIN-TOP{
+	margin-top: 20PX;
+}
+
+.booking-detail
+{
+	margin-top:30px;
+}
+
+.booking-detail .panel-top .panel-heading {
+    position: relative;
+	height:61px;
+}
+
+.booking-detail .panel .panel-body .pass_detail_list {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.booking-detail .panel .panel-body {
+    padding: 15px 0;
+}
+.class span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-width: 1px;
+	border-color: #0781df;
+	border-style: solid;
+	border-radius: 50%;
+    left: 26%;
+    top: -20px;
+    line-height: 40px;
+    background: #fff;
+}
+
+.class h3 {
+    position: absolute;
+    left: 23%;
+    font-size: 16px;
+    margin: 0;
+    top: 30px;
+}
+
+.class span::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 115px;
+    background: #0781df;
+    top: 18px;
+    left: 39px;
+}
+
+.flight span::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 115px;
+    background: #0781df;
+    top: 22px;
+    left: 47px;
+}
+
+.class span .flaticon-furniture::before {
+    margin-left: 1px;
+	color:#0781df;
+}
+
+.flight span {
+    position: absolute;
+    height: 49px;
+    width: 49px;
+    text-align: center;
+    border-width: 1px;
+	border-color: #0781df;
+	border-style: solid;
+	border-radius: 50%;
+    left: 46%;
+    top: -24px;
+    line-height: 49px;
+    background: #fff;
+}
+
+.flight span  .flaticon-transport::before {
+    margin-left: 1px;
+	color:#0781df;
+	
+}
+
+.money span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-width: 1px;
+	border-color: #0781df;
+	border-style: solid;
+	border-radius: 50%;
+    left: 66%;
+    top: -20px;
+    line-height: 40px;
+    background: #fff;
+}
+
+.money h3 {
+    position: absolute;
+    left: 65%;
+    font-size: 16px;
+    margin: 0;
+    top: 30px;
+}
+
+.money span .flaticon-money::before {
+    margin-left: 1px;
+	color:#0781df;
+}
+
+.booking-detail .passenger-type h2{
+	color: #0781df;
+	font-size: 12px;
+	margin: 0px;
+}
+.booking-detail .passenger-type h3{
+	font-size: 14px;
+	color: #b2b2b2;
+	margin: 2px 0 0 0;
+}
+
+.flight .source {
+    position: absolute;
+    left: 40%;
+    top: -27px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flight .source-date {
+    position: absolute;
+    left: 38%;
+    top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+	line-height:12px;
+	color:#b2b2b2;
+}
+
+.flight .dest {
+    position: absolute;
+    left: 53%;
+    top: -27px;
+    font-size: 20px;
+    font-weight: 500;
+	
+}
+
+.flight .dest-date 
+{
+    position: absolute;
+    left: 53%;
+    top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+	line-height:12px;
+	color:#b2b2b2;
+}
+
+.domain-detail .form-group input.upload
+{
+	border:0 none;
+	height:auto;
+}
+
+.domain-detail .upload-site-logo p
+{
+	color:#37a000;
+	font-size:14px;
+}
+
+/************** End 03/10/2017 **************/
+
+
+
+
+
+
+/*************** Backend Booking Css Here ****************/
+
+.backend-booking-content .founded-flight h3 {
+    margin: 20px 0 0;
+    font-size: 12px;
+	color:#b2b2b2;
+}
+
+.backend-booking-content .source-dest h3
+{
+	margin:20px 0 0;
+	font-size:20px;
+	text-transform:uppercase;
+}
+
+.backend-booking-content .source-dest h3 img
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.backend-booking-content .search-share-list ul
+{
+	margin-bottom:0;
+	margin-top:20px;
+}
+
+.backend-booking-content .search-share-list ul li
+{
+	border-right:1px solid #ddd;
+	padding-right:20px;
+	padding-left:0;
+	line-height:15px;
+	
+}
+
+.backend-booking-content .search-share-list ul li a
+{
+	color:#37a000;
+}
+
+
+.backend-booking-content .search-share-list ul li:last-child
+{
+	border-right:0 none;
+	padding-right:0;
+}
+
+.booked-ticket-box .panel .panel-body
+{
+	padding:5px 10px;
+}
+
+.booked-ticket-box .panel
+{
+	border-radius:0;
+}
+
+.booked-ticket-box .panel .panel-heading
+{
+	padding:10px;
+}
+
+.booked-ticket-box .panel .panel-body ul
+{
+	margin:0;
+}
+
+.booked-ticket-box .panel .panel-body ul li a
+{
+	font-size:10px;
+	text-transform:uppercase;
+	font-weight:600;
+	color:#b2b2b2;
+}
+
+.booked-ticket-box .panel .panel-body ul li:nth-child(5)
+{
+	border-right:0 none !important;
+}
+
+.booked-ticket-box .panel .panel-body ul li
+{
+	border-right:1px solid #b2b2b2;
+	line-height:12px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+
+
+.booked-ticket-box .panel .panel-body ul li:last-child {
+    border-right: 0 none;
+}
+
+.booked-ticket-box .panel-heading ul li {
+    height: 30px;
+}
+
+.ticket-price h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.ticket-price {
+    padding: 0 95px;
+}
+
+.booking-btn .btn-booking
+{
+	background-color: rgb(60, 162, 7);
+	color:#fff;
+	font-size:14px;
+	padding:10px 56px;
+	border-radius:0;
+	margin-top:-14px;
+}
+
+
+.flights-wrapper {
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.flights-wrapper ul
+{
+	margin:0;
+}
+
+.flight-wrapper-name {
+    border-right: 1px solid #e3e3e3;
+}
+
+.flight-wrapper-name h2 {
+    margin: 10px 0 0;
+    font-size: 12px;
+	color:#b2b2b2;
+	text-align:center;
+}
+
+.flight-wrapper-name h3 {
+    margin: 0 0 10px;
+    font-size: 12px;
+	text-align:center;
+	color:#494949;
+}
+
+.flights-wrapper button.slick-prev {
+    left: 0;
+    background: #37a000;
+}
+
+.flights-wrapper button.slick-next {
+    right: 0;
+    background: #37a000;
+}
+
+.slick-prev, .slick-next
+{
+	height:28px !important;
+	width:28px !important;
+}
+
+.founded-flight {
+    margin-bottom: 15px;
+}
+
+
+/*************** Backend Search Form Css *************************/
+
+
+.backend-search-form
+{
+	margin-top:40px;
+	padding:0 20px;
+}
+
+.backend-search-form .form-group input {
+    border-width: 2px;
+    border-color: rgb(224, 224, 224);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 0;
+}
+
+.backend-search-form .form-group input:focus
+{
+	box-shadow:none;
+}
+
+.backend-search-form button.btn-block {
+    background-color: rgb(60, 162, 7);
+    height: 44px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.backend-search-form-list {
+    margin-top: 20px;
+	text-align:left;
+}
+
+.select-trip, .price-range-slider, .depart-time, .airlines, .fare-type {
+    border-top: 1px solid #ddd;
+    padding: 20px 20px;
+}
+
+.select-trip label {
+    font-size: 12px;
+}
+
+.radio input[type=radio], .radio-inline input[type=radio]
+{
+	margin-top:1px;
+}
+
+.depart-time  h3, .airlines h3, .fare-type h3, .price-range-slider h3
+{
+	margin:0 0 10px;
+	color:#37a000;
+	font-size:14px;
+	font-weight:600;
+}
+
+.depart-time ul li {
+    border: 2px solid #ddd;
+    text-align: center;
+    padding: 5px 10px;
+	cursor:pointer;
+}
+
+.flight-timing h4 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.flight-timing .flaticon-user::before {
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.depart-time ul li.active 
+{
+    background: #37a000;
+    border: 2px solid #37a000;
+}
+
+.depart-time ul li.active  h4 , .depart-time ul li.active  i
+{
+    color:#fff;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -8px !important;
+    border-radius: 100%;
+}
+
+.price-range-slider input {
+    background: none;
+    box-shadow: none;
+    border: 0 none;
+    text-align: right;
+    width: 100%;
+}
+
+.ui-slider-horizontal
+{
+	height:1px !important;
+}
+.air-list .checkbox
+{
+	position:relative;
+}
+
+.fare-list .squaredTwo span.name
+{
+	margin-left:10px;
+}
+
+.fare-list .squaredTwo span.price
+{
+	position:absolute;
+	left:45%;
+	top:7px;
+	font-size:12px;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+/* SQUARED TWO */
+.squaredTwo {
+	
+	position: relative;
+}
+
+.squaredTwo label {
+	cursor: pointer;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 4px;
+	top: 4px;
+	border:2px solid #37a000;
+}
+
+.squaredTwo label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 1px;
+	border: 2px solid #37a000;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.squaredTwo label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.squaredTwo input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.air-list .squaredTwo span
+{
+	margin-left:10px;
+}
+
+
+
+/*********************** 4 May 2016 css **********************/
+
+.book-ticket-wrapper
+{
+	background:#f9f9f9;
+	padding:10px 15px;
+	margin-bottom:10px;
+	border:1px solid #ddd;
+	position:relative;
+}
+
+.book-ticket-wrapper::after
+{
+	position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+	top: 1px;
+    margin-left: -10px;
+    border-bottom-color: #ffffff;
+    border-top-width: 0;
+    content: " ";
+}
+
+.book-result-container
+{
+	margin-top:15px;
+}
+
+.book-result-container .form-group input, .book-result-container .form-group select
+{
+	width:125px;
+	border-radius:0;
+	margin-left:5px;
+	margin-right:5px;
+	border:2px solid #ddd;
+	color:#494949;
+	font-size:13px;
+	font-weight:600;
+}
+
+.book-result-container  span.swap-city i::before
+{
+	margin-left:0;
+	padding-left:10px;
+	padding-right:10px;
+}
+	
+
+.book-result-container .form-group input:focus, .book-result-container .form-group select:focus
+{
+	box-shadow:none;
+}
+
+.book-result-container .form-group input.disable {
+    color: #ddd;
+    border: 1px solid #eee;
+	cursor:not-allowed;
+}
+
+.book-result-container .form-group input.fromto {
+    width: 158px;
+    border-radius: 0;
+    border: 2px solid #ddd;
+}
+
+.book-result-container button.btn-search {
+    background: #37a000;
+    color: #fff;
+    border-radius: 0;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+.book-result-container button.btn-search i::before
+{
+	margin-left:0;
+	font-size:14px;
+}
+
+.book-ticket-wrapper .form-group span.calender {
+    position: absolute;
+    right: 11px;
+    top: 6px;
+}
+
+.book-ticket-wrapper .form-group
+{
+	position:relative;
+}
+
+.book-ticket-wrapper .form-group span.calender i::before
+{
+	font-size:16px;
+	color:#37a000;
+}
+
+
+.book-result-container span.swap-city
+{
+	color:#37a000;
+}
+
+.Multicityoption {
+    margin-top: 10px;
+}
+
+#addedfRows .form-group input {
+    width: 125px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+#addedfRows .form-group
+{
+	margin-bottom:10px;
+}
+
+#addedfRows {
+    margin-top: 10px;
+}
+
+#addedfRows button.btn-cancel {
+    background: #37a000;
+    color: #fff;
+    padding: 5px 10px;
+	margin-top:-10px;
+    border-radius: 0;
+}
+
+div#addedfRows button.btn-cancel i::before {
+    font-size: 10px;
+    margin-left: 0;
+}
+
+/**************** Profile View Page Css  16 May *************************/
+
+.profile-view-content h2 {
+    margin: 5px 0 10px;
+    font-size: 20px;
+    margin-left: 15px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 8px;
+}
+
+.profile-view-content label {
+    margin-bottom: 20px;
+	font-size:14px;
+	font-weight:normal;
+	position:relative;
+	width:70%;
+}
+
+.profile-view-content label::after {
+    position: absolute;
+    content: ':';
+    right: -11px;
+    top: -8px;
+    font-size: 22px;
+}
+
+.profile-view-content .bold-text {
+    margin-bottom: 20px;
+	font-size:14px;
+	font-weight:600;
+}
+
+
+
+/**************** Ticket details 11/oct 17 ********************/
+
+.ticket-details .top-head p:nth-child(1) {
+	float: left;
+	padding-left: 20px;
+	font-size: 9px;
+	color: #7f8da0;
+}
+.ticket-details .top-head p:nth-child(2) {
+	float: right;
+	padding-right: 20px;
+	font-size: 10px;
+	color: #7f8da0;
+}
+.ticket-details .top-head{
+	color: #999;
+	font-size: 12px;
+	border-bottom: 1px solid #ddd;
+}
+.ticket-details{
+	border: 1px solid #ddd;
+	padding:10px 0px;
+	margin-bottom: 20px;
+}
+.rectangles-date{
+	margin-top: 10px;
+	padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.rectangles-date .date-rect .jun-12{
+	border: 1px solid #d3dbe3;
+	color: #7f8da0;
+	font-size: 12px;
+	padding: 10px;
+	position: relative;
+}
+.rectangles-date .date-rect li{
+	list-style: none;
+	float: left;
+}
+.rectangles-date .date-rect .jun-12 span{
+	font-size: 26px;
+	color: #263238;
+	line-height: 27px;
+}
+.rectangles-date .date-rect .jun-12:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 40%;
+    background-color: #d3dbe3;
+    top: 38px;
+    right: -5px;
+}
+.rectangles-date .date-rect .jun-12:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    max-width: 58px;
+    width: 100%;
+    background-color: #d3dbe3;
+    right: -62px;
+    top: 42px;
+}
+.rectangles-date .date-rect .icon-moon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d3dbe3;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 30px;
+    position: relative;
+}
+.rectangles-date .date-rect .icon-moon i{
+	color: #ccc;
+    position: absolute;
+    left: 22%;
+    top: 13%;
+    font-size: 20px;
+}
+.rectangles-date .date-rect .jun-12-right{
+	margin-left: 60px;
+}
+.rectangles-date .date-rect .jun-12-right:before{
+	content: "";
+    position: absolute;
+    height: 1px;
+    max-width: 58px;
+    width: 100%;
+    background-color: #d3dbe3;
+    left: -62px;
+    top: 43px;
+}
+.rectangles-date .date-rect .jun-12-right:after{
+ content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 40%;
+    background-color: #d3dbe3;
+    top: 38px;
+    left: -5px;
+}
+.rectangles-date .date-rect .nights{
+	position: absolute;
+    left: -1px;
+    width: 30px;
+    top: 32px;
+    color: #7f8da0;
+    font-size: 9px;
+}
+.ticket-details .address_text{
+	margin-top: 30px;
+    color: #263238;
+    font-size: 10px;
+}
+.ticket-details .foot-ticket ul li{
+	padding: 20px 0px 0px 8px;
+    list-style: none;
+    font-size: 10px;
+}
+.ticket-details .foot-ticket > ul {
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.ticket-details .foot-ticket .change-clr{
+	color: #0781df;
+	border-right: 1px solid gray;
+	padding-right: 10px;
+}
+.ticket-details li.booking-btn{
+	float: right;
+	position: absolute;
+	right: 70px;
+}
+.ticket-details li.booking-btn a{
+	font-weight: bold;
+	color: #282828;
+	padding: 10px 20px;
+	border-radius: 4px;
+	border: 1px solid #0781df;
+}
+.fw600 > ul > li{
+	list-style: none;
+	font-size: 7px;
+	color: #263238;
+}
+.fw600 > ul > li span{
+	font-size: 12px;
+}
+.fw600 > ul > .moon_img-2 img{
+	margin-top: -30px;
+}
+.my-panel-padd{
+	padding: 5px 15px 20px!important;
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.ticket-details li.booking-btn a{
+		padding: 10px 5px;
+	}
+	.ticket-details li.booking-btn{
+		right: 58px;
+	}
+	.ticket-details .foot-ticket ul li{
+		padding: 20px 0 0 0;
+		font-size: 8px;
+	}
+	.rectangles-date .date-rect .jun-12{
+		font-size: 10px;
+		padding: 8px 25px;
+	}
+	.rectangles-date .date-rect .jun-12 span{
+		font-size: 16px;
+	}
+	.rectangles-date .date-rect .jun-12:before{
+		right: -68px;
+		max-width: 68px;
+	}
+	.rectangles-date .date-rect .icon-moon{
+		height: 25px;
+	    width: 25px;
+	    margin-left: 67px;
+	    margin-top: 31px;
+	}
+	.rectangles-date .date-rect .icon-moon i{
+		font-size: 15px;
+	}
+}
+@media (max-width: 767px) and (min-width: 399px){
+	.ticket-details li.booking-btn a{
+		padding: 10px 5px;
+	}
+	.ticket-details li.booking-btn{
+		right: 35px;
+	}
+	.ticket-details .foot-ticket ul li{
+		padding: 20px 0 0 0;
+		font-size: 8px;
+	}
+	.rectangles-date .date-rect .jun-12{
+		font-size: 10px;
+		padding: 8px 12px;
+	}
+	.rectangles-date .date-rect .jun-12 span{
+		font-size: 16px;
+	}
+	.rectangles-date .date-rect .jun-12:before{
+		right: -51px;
+		max-width: 47px;
+	}
+	.rectangles-date .date-rect .icon-moon{
+		height: 20px;
+		width: 20px;
+		margin-left: 49px;
+		margin-top: 33px;
+	}
+	.rectangles-date .date-rect .icon-moon i{
+		font-size: 13px;
+	}
+}
+@media (max-width: 667px) and (min-width: 568px){
+	.rectangles-date .date-rect .nights{
+		left: -3px;
+    	top: 28px;
+	}
+	.rectangles-date .date-rect .jun-12-right{
+		margin-left: 80px;
+	}
+	.rectangles-date .date-rect .jun-12-right:before{
+		left: -80px;
+	}
+	.rectangles-date .date-rect .jun-12{
+		font-size: 14px;
+    	padding: 8px 20px;
+	}
+	.rectangles-date .date-rect .icon-moon{
+		height: 25px;
+	    width: 25px;
+	    margin-left: 80px;
+	    margin-top: 31px;
+	}
+	.rectangles-date .date-rect .jun-12:before{
+		right: -81px;
+   		max-width: 76px;
+	}
+	.rectangles-date .date-rect .icon-moon i{
+		font-size: 16px;
+	}
+	ul.date-rect.list-inline.clearfix {
+	    max-width: 400px;
+	    margin: 0 auto;
+	    width: 100%;
+	}
+}
+@media (max-width: 400px) and (min-width: 319px){
+	.ticket-details li.booking-btn a{
+		padding: 10px 2px;
+	}
+	.ticket-details .foot-ticket ul li{
+		padding: 10px 0 0 0;
+		font-size: 8px;
+	}
+	.rectangles-date .date-rect .jun-12:before{
+		right: -50px;
+    	max-width: 45px;
+	}
+	.rectangles-date .date-rect .icon-moon{
+		height: 20px;
+		width: 20px;
+		margin-left: 49px;
+		margin-top: 33px;
+	}
+	.rectangles-date .date-rect .icon-moon i{
+		font-size: 13px;
+	}
+	.rectangles-date .date-rect .nights{
+		left: -6px;
+		top:20px;
+	}
+	.rectangles-date .date-rect .jun-12-right{
+		margin-left: 49px;
+	}
+	.rectangles-date .date-rect .jun-12-right:before{
+		left: -50px;
+	}
+	.rectangles-date .date-rect .jun-12 span{
+		font-size: 21px;
+	}
+	ul.date-rect.list-inline.clearfix{
+		margin-left: -1px;
+	}
+	.ticket-details .top-head p:nth-child(1){
+		padding-left: 10px;
+	}
+	.ticket-details .top-head p:nth-child(2){
+		float: left;
+		padding-left: 10px;
+	}
+	.ticket-details .address_text{
+		margin-top: 10px;
+	}
+	.rectangles-date{
+		padding-bottom: 0;
+	}		
+}
+@media (max-width: 320px) and (min-width: 240px){
+	.ticket-details li.booking-btn a{
+		padding: 10px 2px;
+	}
+	.ticket-details li.booking-btn{
+		right: 35px;
+	}
+	.ticket-details .foot-ticket ul li{
+		padding: 10px 0 0 0;
+		font-size: 8px;
+	}
+	.rectangles-date .date-rect .jun-12{
+		font-size: 10px;
+		padding: 8px 12px;
+	}
+	.rectangles-date .date-rect .jun-12 span{
+		font-size: 16px;
+	}
+	.rectangles-date .date-rect .jun-12:before{
+		right: -37px;
+		max-width: 37px;
+	}
+	.rectangles-date .date-rect .icon-moon{
+		height: 20px;
+		width: 20px;
+		margin-left: 36px;
+		margin-top: 33px;
+	}
+	.rectangles-date .date-rect .icon-moon i{
+		font-size: 13px;
+	}
+	.rectangles-date .date-rect .nights{
+		left: -6px;
+		top:20px;
+	}
+	.rectangles-date .date-rect .jun-12-right{
+		margin-left: 35px;
+	}
+	.rectangles-date .date-rect .jun-12-right:before{
+		left: -36px;
+	}
+	.ticket-details .top-head p:nth-child(1){
+		padding-left: 10px;
+	}
+	.ticket-details .top-head p:nth-child(2){
+		float: left;
+		padding-left: 10px;
+	}
+	.ticket-details .address_text{
+		margin-top: 10px;
+	}
+	.rectangles-date{
+		padding-bottom: 0;
+	}
+}

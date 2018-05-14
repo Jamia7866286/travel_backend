@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Travel Demo Page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--main css-->
+    <link href="css/main.css" rel="stylesheet">
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!--slick Css-->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<!--slick theme-->
+	<link href="css/slick-theme.css" rel="stylesheet">
+	<!--datedropper css-->
+	<link href="css/datedropper.min.css" rel="stylesheet">
+	<!--flaticon css-->
+	<link href="css/flaticon.css" rel="stylesheet">
+	<!--media css-->
+	<link href="css/media.css" rel="stylesheet">
+	<!--animate css-->
+	<link href="css/animate.css" rel="stylesheet">
+	<!--touchspin css-->
+	<link href="css/jquery.bootstrap-touchspin.min.css" rel="stylesheet">
+	<!--font awesome css-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--materialize icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+  </head>
+  <body>
+	<header>
+		<nav class="navbar navbar-transparent navbar-fixed-top">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="" href="#">
+				<img src="img/logo.png" alt="" title=""/>
+			  </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav menu-bar">
+				<li class="active"><a href="#">Hotels <span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Flights</a></li>
+				<li><a href="#">Holiday</a></li>
+				<li><a href="#">Flight+Holiday</a></li>
+				<li><a href="#">Homestays</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><i class="flaticon-star"></i> Social deals</a></li>
+				<li><a href="#"><i class="flaticon-megaphone"></i> Refer & Earn</a></li>
+				<li><a href="login.html"><i class="flaticon-user"></i> Login</a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+			
+			<section id="main" class="flight-bg">
+				<div class="container">
+					<div class="layer-text wow slideInUp">
+						<h1>Where to?  <span>Fly through <br> the world & explore</span></h1>
+					</div>
+				</div>
+				
+				<div class="search-tab">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#flight" onclick="addclass('flight-bg')"aria-controls="Flight" role="tab" data-toggle="tab"><i class="material-icons">airplanemode_active</i> Flight</a></li>
+							<li role="presentation"><a href="#hotel"  onclick="addclass('hotel-bg')" aria-controls="Hotel" role="tab" data-toggle="tab"><i class="material-icons">hotel</i> Hotel</a></li>
+							<li role="presentation"><a href="#holiday"  onclick="addclass('holiday')" aria-controls="Holiday" role="tab" data-toggle="tab"><i class="material-icons">beach_access</i> Holiday</a></li>
+							<li role="presentation"><a href="#bus"  onclick="addclass('bus')" aria-controls="Bus" role="tab" data-toggle="tab"><i class="material-icons">directions_bus</i> Bus</a></li>
+						</ul>
+						
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="flight">
+								<div class="switch-option clearfix">
+									<div class="switch">
+										<input type="radio" id="switch_input_1" name="SwitchOptions" value="">
+										<label for="switch_input_1" class="flight-trip">One Way</label>
+									</div>
+									
+									<div class="switch">
+										<input type="radio" id="switch_input_2" name="SwitchOptions" value="">
+										<label for="switch_input_2" class="radio-inline">Round Trip</label>
+									</div>
+									
+									<div class="switch">
+										<input type="radio" id="switch_input_3" name="SwitchOptions" value="">
+										<label for="switch_input_3" class="radio-inline">Multicity</label>
+									</div>
+								</div>
+								
+								<div class="switch-result-box clearfix">
+									<form class="form-inline">
+									  <div class="form-group">
+										<label for="">From</label>
+										<input type="text" class="form-control from-to" id="" placeholder="New Delhi(DEL)">
+									  </div>
+									  <span class="swap-btn">
+										<i class="material-icons">swap_horiz</i>
+									  </span>
+									  <div class="form-group">
+										<label for="">To</label>
+										<input type="text" class="form-control from-to" id="" placeholder="To">
+									  </div>
+									  <div class="form-group">
+										<label for="">Depart</label>
+										<input type="text" class="form-control depart" id="date" data-large-mode="true" data-large-default="true" placeholder="17 Apr, Mon">
+									  </div>
+									  <div class="form-group clear disable" id="return-date">
+										<label for="">Return</label>
+										<input type="text" class="form-control depart" id="date" data-large-mode="true" data-large-default="true"  placeholder="Return">
+										<span><i class="material-icons">clear</i></span>
+									  </div>
+									  <div class="form-group">
+										<label for="">Passanger</label>
+											<div class="TravelInfoBox">
+												<span class="totaltraveller">3</span> Travellers
+											</div>
+											<!--flight-passanger-box-->
+												<div class="flight_pass_box" id="fp_box" style="display:none;">
+													<div class="flight_box_content">
+														<button type="button" class="close" id="closebtn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<!--error msg here-->
+														<div class="alert alert-danger error-msg-box">
+															<span><p>Maximum of 9 travellers allowed</p></span>
+														</div>
+													<!--error msh end here-->
+													
+													
+														<div class="col-xs-4">
+															<label>Adults</label><br>
+															<small>(12+Yrs)</small>
+															<input id="demo3_22" type="text" value="0" name="demo3_22">
+														</div>
+														
+														<div class="col-xs-4">
+															<label>Children</label><br>
+															<small>(2-12 Yrs)</small>
+															<input id="demo3_22" type="text" value="0" name="demo3_22">
+														</div>
+														
+														<div class="col-xs-4">
+															<label>Infant(s)</label><br>
+															<small>(below 2 yrs)</small>
+															<input id="demo3_22" type="text" value="0" name="demo3_22">
+														</div>
+													</div>
+												</div>
+											<!--flight-passanger-box ends here-->
+											
+											
+									  </div>
+									  <div class="form-group">
+										<label for="">Class</label>
+											<select class="form-control">
+											  <option>Economy</option>
+											  <option>Business</option>
+											  <option>First Class</option>
+											  <option>Premium Economy</option>
+											</select>
+									  </div>
+									  <button type="submit" class="btn btn-search">Search</button>
+									  
+									<div class="Multicityoption clearfix" id="MultiCity">
+										 <div class="form-group">
+											<input type="text" class="form-control from-to" id="" placeholder="From">
+										</div>
+										<span class="swap-btn">
+											<i class="material-icons">swap_horiz</i>
+										</span>
+										<div class="form-group">
+											<input type="text" class="form-control from-to" id="" placeholder="To">
+										</div>
+										<div class="form-group">
+											<label for="">Depart</label>
+											<input type="text" class="form-control depart" id="date" data-large-mode="true" placeholder="17 Apr, Mon">
+										</div>
+										
+										<div class="form-group">
+											<div class="add-city">
+												<a onclick="addMoreMRows(this.form);">Add City <small>Upto 3 city</small></a>
+											</div>
+										</div>
+									
+										<div class="">
+											<div id="addedfRows" class="form-group"></div>
+										</div>
+									
+									
+									</div>
+									  
+									  
+									  
+									</form>
+								</div>
+							</div>
+							
+							<div role="tabpanel" class="tab-pane" id="hotel">
+								<div class="switch-result-box clearfix">
+									<form class="form-inline">
+									  <div class="form-group">
+										<label for="">City Hotel or Area</label>
+										<input type="text" class="form-control city" id="" placeholder="New Delhi(DEL)">
+									  </div>
+									  
+									  <div class="form-group">
+										<label for="">Check-in</label>
+										<input type="text" class="form-control" id="date" data-large-mode="true" placeholder="10 Mar, 2016">
+									  </div>
+									  <div class="form-group">
+										<label for="">Check-Out</label>
+										<input type="text" class="form-control" id="date" data-large-mode="true" placeholder="17 Apr, 2016">
+									  </div>
+									 
+									  <div class="form-group">
+										<label for="">Room/guests</label>
+										<input type="text" class="form-control" id="" placeholder="1 Rooms, 2 Guests">
+									  </div>
+									 
+									  <button type="submit" class="btn btn-search">Search</button>
+									</form>
+								</div>
+							</div>
+							
+							
+							
+							<div role="tabpanel" class="tab-pane" id="holiday">...</div>
+							<div role="tabpanel" class="tab-pane" id="bus">...</div>
+						</div>
+				</div>
+				</div>
+			</section>
+		
+	</header>
+	
+	<section class="our-special">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="top-heading wow slideInUp">
+						<h4>We're Expert</h4>
+						<h1>Goifare Specials</h1>
+					</div>
+				</div><!--col ends here-->
+			</div><!--row ends here-->
+			
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="items responsive">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb1.jpg" alt="...">
+							  <div class="caption">
+								<h3>Kerala</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb2.jpg" alt="...">
+							  <div class="caption">
+								<h3>Orrisa</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb3.jpg" alt="...">
+							  <div class="caption">
+								<h3>Goa</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb1.jpg" alt="...">
+							  <div class="caption">
+								<h3>Meghalaya</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb2.jpg" alt="...">
+							  <div class="caption">
+								<h3>Himachal Pardesh</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb3.jpg" alt="...">
+							  <div class="caption">
+								<h3>Nepal</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+							  <img src="img/thumb1.jpg" alt="...">
+							  <div class="caption">
+								<h3>Sikkim</h3>
+								<p>Starting at Rs. 89,000</p>
+							  </div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	<section class="great-deal deal-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="top-heading wow slideInUp">
+						<h4>Want Some Cool Deals</h4>
+						<h1>Great Deals on  Trips</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="great-deal-form">
+						<form>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" id="exampleInputEmail3" placeholder="I want to travel to">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" id="exampleInputEmail3" placeholder="I'm starting to">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="select-month">
+										<ul class="list-inline">
+											<li>Dec</li>
+											<li class="active">Jan</li>
+											<li>Feb</li>
+											<li>Mar</li>
+											<li>Apr</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="col-md-6">
+									<div class="choose-travel-type">
+										<ul class="list-inline">
+											<li class="active"><i class="material-icons">airplanemode_active</i> Flight</li>
+											<li><i class="material-icons">hotel</i> Hotel</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<div class="search-result-box">
+										<ul class="list-unstyled">
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										<li>
+											<span class="travel"><i class="material-icons">airplanemode_active</i></span><span> DEL -> BAN (27 Dec 2016) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span>$4713 Price is Lesser then the avarge fare</span>
+											<span class="more"><i class="material-icons">arrow_forward</i></span>
+										</li>
+										
+										
+										
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="top-destination">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="top-heading wow slideInUp">
+						<h4>You Deserved Happines</h4>
+						<h1>Top Hotel Destinations</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="destination-boxes">
+				<div class="row clearfix">
+				
+					<div class="col-md-4">
+						<div class="package-box width-448-490 mb30">
+							<a href="#">
+								<img src="img/3.jpg" alt="" title=""/>
+								<div class="description">
+									<span><i class="material-icons">keyboard_arrow_up</i></span>
+									<h2>Newzeland <br><small>4 Famous Place</small></h2>
+									<ul class="">
+									<li>Harbour Bridge</li>
+									<li>Bondi Bridge</li>
+									<li>Sydney Opera House</li>
+									<li>Port Jackson</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-sm-5">
+						<div class="package-box width-365-265 mb30">
+							<a href="#">
+								<img src="img/1.jpg" alt="" title=""/>
+								<div class="description">
+									<span><i class="material-icons">keyboard_arrow_up</i></span>
+									<h2>Dubai <br><small>4 Famous Place</small></h2>
+									<ul class="">
+									<li>Harbour Bridge</li>
+									<li>Bondi Bridge</li>
+									<li>Sydney Opera House</li>
+									<li>Port Jackson</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="package-box width-245-265 mb30">
+							<a href="#">
+								<img src="img/2.jpg" alt="" title=""/>
+								<div class="description">
+									<span><i class="material-icons">keyboard_arrow_up</i></span>
+									<h2>Sydney <br><small>4 Famous Place</small></h2>
+									<ul class="">
+									<li>Harbour Bridge</li>
+									<li>Bondi Bridge</li>
+									<li>Sydney Opera House</li>
+									<li>Port Jackson</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-md-8">
+						<div class="package-box width-630-205 mb30">
+							<a href="#">
+								<img src="img/4.jpg" alt="" title=""/>
+								<div class="description">
+									<span><i class="material-icons">keyboard_arrow_up</i></span>
+									<h2>Sydney <br><small>4 Famous Place</small></h2>
+									<ul class="">
+									<li>Harbour Bridge</li>
+									<li>Bondi Bridge</li>
+									<li>Sydney Opera House</li>
+									<li>Port Jackson</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	<section class="newsletter parallax-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="top-heading wow slideInUp">
+						<h4>Let's Go With Us</h4>
+						<h1>Join Our Newsletter</h1>
+					</div>
+				</div><!--col ends here-->
+			</div><!--row ends here-->
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div class="newsletter-form text-center">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Your Email Id">
+							</div>
+							<button type="submit" class="btn btn-send">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="footer-top-link">
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<h3>Corporate Information</h3>
+								<ul class="list-unstyled">
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Customer Care</a></li>
+									<li><a href="#">Partner With Us</a></li>
+									<li><a href="#">Product offering</a></li>
+									<li><a href="#">Other Services</a></li>
+									<li><a href="#">About Us</a></li>
+								</ul>
+						</div>
+						
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<h3>Goifare Services</h3>
+								<ul class="list-unstyled">
+									<li><a href="#">Corporates</a></li>
+									<li><a href="#">Agents</a></li>
+									<li><a href="#">Mobile App</a></li>
+									<li><a href="#">Armed Force Personal</a></li>
+									<li><a href="#">IDG</a></li>
+									<li><a href="#">Card Holders</a></li>
+								</ul>
+						</div>
+						
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<h3>Customer Care</h3>
+								<ul class="list-unstyled">
+									<li><a href="#">Help & FAQ's</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
+									<li><a href="#">Mobile App</a></li>
+								</ul>
+							<h4>Partnership</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Become Affiliate</a></li>
+								<li><a href="#">Register Your Hotel</a></li>
+							</ul>
+						</div>
+						
+						
+						
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<h3>Product Offering</h3>
+								<ul class="list-unstyled">
+									<li><a href="#">Corporates</a></li>
+									<li><a href="#">Agents</a></li>
+									<li><a href="#">Mobile App</a></li>
+									<li><a href="#">Armed Force Personal</a></li>
+									<li><a href="#">IDG</a></li>
+									<li><a href="#">Card Holders</a></li>
+								</ul>
+						</div>
+						
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<h3>Other Services</h3>
+								<ul class="list-unstyled">
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Customer Care</a></li>
+									<li><a href="#">Partner With Us</a></li>
+									<li><a href="#">Product offering</a></li>
+									<li><a href="#">Other Services</a></li>
+									<li><a href="#">About Us</a></li>
+								</ul>
+						</div>
+						
+						<div class="col-md-2 col-xs-12 col-sm-2">
+							<div class="customer-care">
+								<div class="cc-number text-center">
+									<i class="flaticon-user"></i>
+									<h3>Customer Support</h3>
+									<h4>1-800-040-257</h4>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-bottom-link">
+						<div class="col-md-6 col-sm-6 col-xs-12 lPadding">
+							<div class="copyright-text">
+								<p>Copyright &copy; 2017 Goifare Inc. All Right Reserved.</p>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-sm-6 col-xs-12 rPadding">
+							<div class="term-condition">
+								<ul class="list-inline">
+									<li><a href="#">Terms & conditions</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">User Aggrement</a></li>
+									<li><a href="#">Disclaimer Policy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+		</div>
+	</footer>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<!--datedropper js-->
+    <script src="js/datedropper.min.js"></script>
+	<!--touchspin js-->
+    <script src="js/jquery.bootstrap-touchspin.min.js"></script>
+	<!--wow js-->
+    <script src="js/wow.min.js"></script>
+	<!--slick js-->
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script src="js/front.js"></script>
+	
+	
+	<script>
+        $("input[name='demo3_22']").TouchSpin({
+			initval: 40
+        });
+		
+		$('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+	
+	<script type="text/javascript">
+	var rowCount = 1;
+	function addMoreMRows(frm) {
+	rowCount ++;
+	var mngRow = '<div id="rowCount'+rowCount+'"><div class="form-group"><input type="text" class="form-control depart" id="date" data-large-mode="true" placeholder="17 Apr, Mon"></div><div class="form-group"><input type="text" class="form-control depart" id="date" data-large-mode="true" placeholder="17 Apr, Mon"></div><button type="button" title="Delete row" onclick="removeRow('+rowCount+');" class="btn btn-cancel"><i class="material-icons">clear</i></button></div>';
+	jQuery('#addedfRows').append(mngRow);
+	}
+	
+	function removeRow(removeNum) {
+	jQuery('#rowCount'+removeNum).remove();
+	}
+	</script>
+	
+	<script>
+		$( ".TravelInfoBox" ).click(function(e) {
+		e.stopPropagation();
+	});
+	</script>
+	
+	<script>
+		$( ".TravelInfoBox" ).click(function(e) {
+		$( "#fp_box" ).toggle();
+	});
+	</script>
+	
+	<script>
+		$( "#closebtn" ).click(function() {
+		$( "#fp_box" ).hide();
+	});
+	</script>
+	
+	<script>
+		$(window).on("scroll", function() {
+		if ($(this).scrollTop() > 20) {
+		   $("nav").addClass("sticky");
+		}
+		else {
+		   $("nav").removeClass("sticky");
+		}
+	 });
+	</script>
+	
+	<script>
+		$('input#date').dateDropper();
+	</script>
+	
+	<script>
+		$('.search-tab ul li a').click(function(){
+		$('header').addClass('flight-bg');
+		$(this).removeClass('hotel-bg');
+		});
+	</script>
+	
+	<script>
+		new WOW().init();
+    </script>
+	
+  </body>
+</html>

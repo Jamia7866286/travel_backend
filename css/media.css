@@ -1,0 +1,103 @@
+
+
+@media (max-width: 1024px)
+{
+
+}
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+	
+	
+}
+
+@media (max-width: 980px)
+{
+	
+}
+
+@media (max-width: 800px)
+{
+
+}
+
+@media (max-width: 990px) and (min-width:768px)
+{
+	
+}
+
+
+@media (max-width:768px)
+{
+	.dashboard-left{position:relative;width:100%;float:left;}
+	.dashboard-right{width:100%;float:left;}
+}
+
+
+@media (max-width:767px) and (min-width:240px)
+{
+	.cpadding40{padding:20px 30px;}
+	.navbar-collapse{background:#1f2533;}
+	.our-special, .great-deal, .newsletter-form{padding:20px 0;}
+	.top-heading h1{font-size:32px;}
+	.select-month ul li{width:auto;}
+	.top-heading h1{margin-bottom:10px;}
+	.items{margin-top:10px;}
+	.navbar-toggle{border:1px solid #ddd;}
+	.navbar-toggle .icon-bar{background:#fff;}
+	.navbar-header img{margin-left:10px;}
+	ul.menu-bar{padding-left:0;}
+	.dashboard-left{position:relative;width:100%;float:left;padding:20px 0;}
+	.dashboard-right{width:100%;float:left;}
+	.nav-tabs > li{float:none;margin-bottom:5px;}
+	.layer-text{padding:60px 0 20px;}
+	.nav-tabs > li > a{padding:12px 20px;}
+	ul.navbar-right li a i::before{margin-left:0;}
+	.switch-result-box form .form-group input.from-to, .switch-result-box form .form-group input.depart, .switch-result-box form .form-group .TravelInfoBox, .switch-result-box form .form-group input, .switch-result-box form .form-group select, .great-deal-form, .great-deal-form .form-group input, .search-result-box, .newsletter-form form .form-group input, .switch-result-box form .form-group input.city{width:100%;}
+	.search-result-box ul li span.more{right:8px;}
+	.top-destination .package-box img{width:100%;height:100%;}
+	.newsletter-form form .form-group input{padding:6px 0 0;}
+	.newsletter-form form button.btn-send{margin-top:0;}
+	.tab-content .tab-pane{width:350px !important;}
+	.nav-tabs > li{margin-right:0;}
+	.nav-tabs{width:100%;padding-left:15px;padding-right:15px;}
+	.flight_pass_box{width:326px;top:66px;}
+	.flight_pass_box::after, .flight_pass_box::before{left:57%;}
+	.switch-result-box form .form-group label{position:relative;top:0;}
+	.footer-bottom-link .copyright-text p, .term-condition{text-align:center;}
+	.items .thumbnail .caption h3{font-size:12px;}
+	.slick-next{right:-10px;}
+	.slick-prev{left:-10px;}
+	.slick-prev::before, .slick-next::before{color:rgb(0, 112, 201);}
+	.switch-result-box form .form-group.clear span{right:0;top:38px;}
+	.footer-top-link h3{margin-top:10px;}
+	.login-inner .login-form{width:100%;}
+	.login-inner .login-form .login-form-content{padding:20px;}
+	.login-inner .login-form .login-form-content .user-login-form span.or{display:none;}
+	.login-inner .login-form .login-form-content .form-group input, .login-inner .login-form .login-form-content button.btn-block, .login-inner .login-form .login-form-content p{width:100%;}
+	.login-inner .login-form .login-form-content .social-login-wrapper{height:auto;}
+	.navbar-toggle{margin-top:10px;}
+	.login-inner .login-form .login-form-footer .feat-list ul li{width:100%;margin-bottom:10px;border-right:0 none;}
+	.agent-listing ul li{padding-left:5px;padding-right:5px;}
+	.agent-listing ul li a, .agent-listing ul li a i::before{font-size:12px;}
+	.result-container .agent-detail-box{padding:10px 20px;}
+	.action-list ul li{padding-left:10px;padding-right:10px;}
+	.agent-detail-list ul li{width:100%;border-right:0 none;padding-left:5px;margin-bottom:10px;}
+	.agent-detail-list ul li .p-heading h2{width:110px;}
+	.action-list ul li .popover-box{right:-5px;}
+	.user-edit-profile-content form .form-group input, .edit-agent-profile-content form .form-group input, .user-edit-profile-content button.btn-save-profile, .edit-agent-profile-content button.btn-save-profile, .separator{width:100%;}
+	.inputfile + label{margin-left:100px;}
+	.pass_detail_list ul li{padding-left:5px;padding-right:5px;width:100%;margin-bottom:10px;border-right:0 none;}
+	.class span{left:10%;}
+	.money span{left:80%;}
+	.flight span{left:45%;}
+	.class span::before, .flight span::before{width:65px;}
+	.flight .source{left:23%;top:-33px;}
+	.flight .dest{left:68%;top:-33px;}
+	.class h3{left:4%;font-size:12px;}
+	.money h3{left:73%;font-size:12px;}
+	.flight .source-date{left:24%;top:0;}
+	.flight .dest-date{left:62%;top:0;}
+	.ticket-price{padding:0;}
+	.booking-btn .btn-booking{margin-top:0;}
+	.login-inner .login-form .login-form-content{padding:20px;}
+}
